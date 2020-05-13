@@ -1,0 +1,158 @@
+body
+{
+	background-color:#61122f;
+	color:#fff;
+	font-size:16px;
+	font-family:'oxygen',san-serif !important;   
+}
+#header-nav
+{
+	background-color:#f6b319 !important;
+	border:0px;
+}
+
+#logo
+{
+	width:150px;
+	height:120px;
+	margin:1px;
+}
+#logo2{
+	width:80px;
+}
+#title2
+{
+	color:#557c3e;
+	font-weight:bold;
+	text-shadow: 1px 1px 1px #222;
+}
+
+#title2:hover
+{
+	text-decoration:none;
+	color:#c1e6ab;
+}
+.iconsStyle{
+	font-size: 24px;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+.custom-link{
+	color: #61122f !important;
+	font-weight:bold;
+	 background:gold; 
+}
+.custom-link:hover{
+	color: #61122f !important;
+	font-weight:bold;
+	 background:#ffec88; 
+}
+#toggler-button{
+	border-color: #61122f;
+    border-width: 2px;
+    color:#61122f;
+}
+#toggler-button:hover{
+	background-color: #ffec88;
+}
+#mainphoto
+{
+
+    height: 364px;
+    width: 100%;
+    border-radius: 27px;
+}
+#mainphoto:hover
+{
+box-shadow: 2px 2px 2px #cccccc;
+}
+
+.jumbotron
+{
+	padding: 0px;
+    margin: 5%;
+}
+#menutitle,#specialstitle,#maptitle
+{
+	height: 250px;
+	width:100%;
+	border:2px solid #3f0c1f;
+	overflow:hidden;
+	margin-bottom:10px;
+	border-radius: 5px;
+}
+#menutitle:hover,#specialstitle:hover,#maptitle:hover
+{
+	box-shadow: 5px 2px 2px #7c7d7d;
+}
+#menutitle
+{
+background-image: url("images/menu8.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size:100% 100%;
+
+}
+#specialstitle
+{
+background-image: url("images/pizza.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size:100% 100%;
+
+}
+#maptitle
+{
+	background-image: url("images/map2.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+}
+#menutitle span,#specialstitle span,#maptitle span
+{
+	width:100%;
+
+	font-size:25px;
+	background-color: #df0909;
+	color:#fff;
+	opacity: 0.8; 
+
+}
+a:hover
+{
+	text-decoration:none;
+	font-size: 30px;
+}
+/*end of home page*/
+
+/*menu page coding*/
+
+
+.cat-title span
+{
+	position: absolute;
+	left: 0;
+	font-size:25px;
+	background-color: #df0909;
+	color:#fff;
+	opacity: 0.8; 
+}
+
+.cat-title
+{
+	position: relative;
+	height: 200px;
+	width:100%;
+	border:2px solid #3f0c1f;
+	overflow:hidden;
+	margin:10px auto;
+	border-radius: 3px;
+}
+.cat-title:hover{
+	box-shadow: 5px 2px 2px #7c7d7d;
+}
+.image56
+{
+	height:200px;
+	width:100%; 
+}
